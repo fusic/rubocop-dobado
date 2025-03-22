@@ -1,1 +1,6 @@
 # Write it!
+
+DobadoArchitecture/ControllerRecommendRestfulMethods:
+  Description: 'コントローラーのアクション名として、RESTfulなメソッド名を推奨する'
+  Enabled: true
+  VersionAdded: '0.1.0'
