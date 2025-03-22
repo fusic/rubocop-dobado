@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "dobado_architecture/version"
+require_relative 'dobado_architecture/version'
 
 module RuboCop
   module DobadoArchitecture

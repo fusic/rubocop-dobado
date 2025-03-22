@@ -22,6 +22,7 @@ module RuboCop
       class ControllerRecommendRestfulMethods < Base
         MSG = 'RESTful(index, show, new, edit, create, update, destroy)なメソッド名の使用を推奨します'
 
+        # @!method action_declarations(node)
         def_node_search :action_declarations, <<~PATTERN
           (def ...)
         PATTERN
