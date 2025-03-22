@@ -2,6 +2,7 @@
 
 module RuboCop
   module Cop
+    # DobadoArchitectureに関するCop
     module DobadoArchitecture
       include VisibilityHelp
       include DefNode
