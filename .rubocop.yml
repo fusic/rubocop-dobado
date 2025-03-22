@@ -1,0 +1,7 @@
+plugins:
+  - rubocop-internal_affairs
+  - rubocop-dobado_architecture
+
+Naming/FileName:
+  Exclude:
+    - lib/rubocop-dobado_architecture.rb
