@@ -1,6 +1,6 @@
 # Write it!
 
-DobadoArchitecture/ControllerRecommendRestfulMethods:
+Dobado/ControllerRecommendRestfulMethods:
   Description: "コントローラーのアクション名として、RESTfulなメソッド名を推奨する"
   Enabled: true
   VersionAdded: "0.1.0"
@@ -15,7 +15,7 @@ DobadoArchitecture/ControllerRecommendRestfulMethods:
   Include:
     - "app/controllers/**/*.rb"
 
-DobadoArchitecture/ModelMail:
+Dobado/ModelMail:
   Description: "モデル内でメール送信を行うのを非推奨とする"
   Enabled: true
   VersionAdded: "0.1.0"

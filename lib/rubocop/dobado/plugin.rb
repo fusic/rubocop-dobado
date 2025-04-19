@@ -3,12 +3,12 @@
 require 'lint_roller'
 
 module RuboCop
-  module DobadoArchitecture
-    # A plugin that integrates rubocop-dobado_architecture with RuboCop's plugin system.
+  module Dobado
+    # A plugin that integrates rubocop-dobado with RuboCop's plugin system.
     class Plugin < LintRoller::Plugin
       def about
         LintRoller::About.new(
-          name: 'rubocop-dobado_architecture',
+          name: 'rubocop-dobado',
           version: VERSION,
           homepage: "TODO: Put your plugin's homepage URL here.",
           description: "TODO: Put your plugin's description here."

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'rubocop-dobado_architecture'
+require 'rubocop-dobado'
 require 'rubocop/rspec/support'
 
 RSpec.configure do |config|

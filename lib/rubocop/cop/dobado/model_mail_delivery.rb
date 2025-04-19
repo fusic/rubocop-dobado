@@ -2,8 +2,8 @@
 
 module RuboCop
   module Cop
-    # DobadoArchitectureに関するCop
-    module DobadoArchitecture
+    # Dobadoに関するCop
+    module Dobado
       # モデル内でメール送信（deliver_now/deliver_later）の呼び出しを非推奨にするためのCop
       #
       # @example
