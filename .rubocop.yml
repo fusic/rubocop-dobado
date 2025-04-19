@@ -7,11 +7,11 @@ inherit_mode:
 
 plugins:
   - rubocop-internal_affairs
-  - rubocop-dobado_architecture
+  - rubocop-dobado
 
 Naming/FileName:
   Exclude:
-    - lib/rubocop-dobado_architecture.rb
+    - lib/rubocop-dobado.rb
 
 Metrics/BlockLength:
   Exclude:

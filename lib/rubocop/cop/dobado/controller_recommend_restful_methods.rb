@@ -2,8 +2,8 @@
 
 module RuboCop
   module Cop
-    # DobadoArchitectureに関するCop
-    module DobadoArchitecture
+    # Dobadoに関するCop
+    module Dobado
       # コントローラーのアクション名として、RESTfulなメソッド名
       # (index, show, new, edit, create, update, destroy)を推奨するためのCop
       #

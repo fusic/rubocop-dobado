@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe RuboCop::Cop::DobadoArchitecture::ModelMailDelivery, :config do
+RSpec.describe RuboCop::Cop::Dobado::ModelMailDelivery, :config do
   example 'モデル内でのメール送信を検知' do
     expect_offense(<<~RUBY)
       class User < ApplicationRecord

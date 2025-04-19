@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe RuboCop::Cop::DobadoArchitecture::ControllerRecommendRestfulMethods, :config do
+RSpec.describe RuboCop::Cop::Dobado::ControllerRecommendRestfulMethods, :config do
   example 'RESTfulでないメソッドを検知' do
     expect_offense(<<~RUBY)
       class UsersController < ApplicationController

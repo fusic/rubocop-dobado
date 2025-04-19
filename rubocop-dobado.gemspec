@@ -1,24 +1,24 @@
 # frozen_string_literal: true
 
-require_relative 'lib/rubocop/dobado_architecture/version'
+require_relative 'lib/rubocop/dobado/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'rubocop-dobado_architecture'
-  spec.version = RuboCop::DobadoArchitecture::VERSION
+  spec.name = 'rubocop-dobado'
+  spec.version = RuboCop::Dobado::VERSION
   spec.authors = ['ippachi']
   spec.email = ['ippachi1018@gmail.com']
 
-  spec.summary = 'DobadoArchitecture cops for RuboCop'
-  spec.description = 'DobadoArchitecture cops for RuboCop'
-  spec.homepage = 'https://github.com/fusic/rubocop-dobado_architecture'
+  spec.summary = 'Dobado cops for RuboCop'
+  spec.description = 'Dobado cops for RuboCop'
+  spec.homepage = 'https://github.com/fusic/rubocop-dobado'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.0.0'
 
   spec.metadata['allowed_push_host'] = ''
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/fusic/rubocop-dobado_architecture'
-  spec.metadata['changelog_uri'] = 'https://github.com/fusic/rubocop-dobado_architecture/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/fusic/rubocop-dobado'
+  spec.metadata['changelog_uri'] = 'https://github.com/fusic/rubocop-dobado/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 
-  spec.metadata['default_lint_roller_plugin'] = 'RuboCop::DobadoArchitecture::Plugin'
+  spec.metadata['default_lint_roller_plugin'] = 'RuboCop::Dobado::Plugin'
 
   spec.add_dependency 'lint_roller', '~> 1.1'
   spec.add_dependency 'rubocop', '>= 1.72.2'

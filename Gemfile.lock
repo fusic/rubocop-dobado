@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-dobado_architecture (0.1.0)
+    rubocop-dobado (0.1.0)
       lint_roller (~> 1.1)
       rubocop (>= 1.72.2)
 
@@ -60,7 +60,7 @@ DEPENDENCIES
   rake (~> 13.0)
   rspec
   rubocop (>= 1.72.2)
-  rubocop-dobado_architecture!
+  rubocop-dobado!
 
 BUNDLED WITH
    2.5.23
